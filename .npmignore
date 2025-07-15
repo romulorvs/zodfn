@@ -1,0 +1,13 @@
+# dependencies
+/node_modules
+
+# testing
+/coverage
+/tests
+*.spec.*
+jest.*
+
+# misc
+package-lock.json
+tsconfig.json
+.gitignore

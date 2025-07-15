@@ -1,0 +1,37 @@
+{
+  "name": "zodfn",
+  "version": "1.0.0",
+  "author": "RVS",
+  "description": "A runtime function validation library",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/romulorvs/zodfn",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --collectCoverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romulorvs/zodfn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/romulorvs/zodfn"
+  },
+  "keywords": [
+    "zod",
+    "typescript",
+    "schema",
+    "validation",
+    "type",
+    "inference",
+    "runtime"
+  ],
+  "dependencies": {
+    "zod": "^3.25.75"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.4",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  }
+}
